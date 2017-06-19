@@ -1,11 +1,14 @@
 #ifndef MDP_H
 #define MDP_H
 
-#include <despot/core/pomdp.h>
+#include "../core/pomdp.h"
+#include <vector>
+#include "policy.h"
 
 namespace despot {
+	class ParticleBelief;
 
-/**
+	/**
  * Interface for a discrete MDP. This class implements the following functions:
  * <ol>
  * <li> value iteration,

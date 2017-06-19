@@ -2,8 +2,8 @@
 #define HISTORY_H
 
 #include <vector>
-#include <despot/util/util.h>
-#include <despot/core/globals.h>
+#include "../util/util.h"
+#include "globals.h"
 
 namespace despot {
 

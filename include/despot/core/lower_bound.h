@@ -2,9 +2,9 @@
 #define LOWER_BOUND_H
 
 #include <vector>
-#include <despot/random_streams.h>
-#include <despot/core/history.h>
-#include <despot/core/solver.h>
+#include "../random_streams.h"
+#include "../core/history.h"
+#include "../core/solver.h"
 
 namespace despot {
 

@@ -2,17 +2,17 @@
 #define SIMPLETUI_H
 
 #include <typeinfo>
-#include <despot/solver/despot.h>
-#include <despot/solver/aems.h>
-#include <despot/solver/pomcp.h>
+#include "./solver/despot.h"
+#include "./solver/aems.h"
+#include "./solver/pomcp.h"
 
-#include <despot/util/optionparser.h>
-#include <despot/util/seeds.h>
+#include "./util/optionparser.h"
+#include "./util/seeds.h"
 
-#include <despot/core/pomdp.h>
-#include <despot/ippc/client.h>
+#include "./core/pomdp.h"
+#include "./ippc/client.h"
 
-#include <despot/evaluator.h>
+#include "./evaluator.h"
 
 namespace despot {
 

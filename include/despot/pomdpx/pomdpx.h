@@ -1,9 +1,9 @@
 #ifndef POMDPX_H
 #define POMDPX_H
 
-#include <despot/core/pomdp.h>
-#include <despot/core/mdp.h>
-#include <despot/pomdpx/parser/parser.h>
+#include "../core/pomdp.h"
+#include "../core/mdp.h"
+#include "../pomdpx/parser/parser.h"
 
 namespace despot {
 

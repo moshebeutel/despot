@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{c766ae6d-7d7a-4ea3-8190-98915c30184f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ippc">
+      <UniqueIdentifier>{bfd275f1-d4e1-4784-a936-eb7c7928f545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pomdpx">
+      <UniqueIdentifier>{70f0b061-d497-458d-af94-fe0cce92a234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\solver">
+      <UniqueIdentifier>{fef13ad6-d149-4137-862b-634fd6ebf770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{3d946576-d7c6-4aec-b79f-6fe742b13b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util\tinyxml">
+      <UniqueIdentifier>{c411586f-0918-4104-9d3d-858eafbd8681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pomdpx\parser">
+      <UniqueIdentifier>{40baf724-8e5b-4a2c-a8e1-b4e5d1cacf85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{daf5573d-0142-4f37-aa31-1752117423a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ippc">
+      <UniqueIdentifier>{c1e7035d-8c77-4755-a090-dcafa426af1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{208901c1-0e22-47b4-a07c-6b45740f4c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pomdpx">
+      <UniqueIdentifier>{8ed581cc-69f3-4c56-8df6-a4b49c17ccd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\solver">
+      <UniqueIdentifier>{e0518fb1-fc12-433e-ae14-c39344d8dc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pomdpx\parser">
+      <UniqueIdentifier>{4b07d37b-15b5-49ae-aef3-af23ff648fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util\tinyxml">
+      <UniqueIdentifier>{1bd63c84-5f75-4c35-813e-58b8739c51fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\include\despot\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\evaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\random_streams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\simple_tui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\belief.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\globals.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\history.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\lower_bound.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\mdp.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\node.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\policy.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\pomdp.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\solver.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\core\upper_bound.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\ippc\client.h">
+      <Filter>Header Files\ippc</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\solver\aems.h">
+      <Filter>Header Files\solver</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\solver\despot.h">
+      <Filter>Header Files\solver</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\solver\pomcp.h">
+      <Filter>Header Files\solver</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\pomdpx\pomdpx.h">
+      <Filter>Header Files\pomdpx</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\pomdpx\parser\function.h">
+      <Filter>Header Files\pomdpx\parser</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\pomdpx\parser\parser.h">
+      <Filter>Header Files\pomdpx\parser</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\pomdpx\parser\variable.h">
+      <Filter>Header Files\pomdpx\parser</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\coord.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\dirichlet.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\exec_tracker.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\floor.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\gamma.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\grid.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\logging.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\memorypool.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\optionparser.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\random.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\seeds.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\timer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\util.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\tinyxml\tinystr.h">
+      <Filter>Header Files\util\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include=".\include\despot\util\tinyxml\tinyxml.h">
+      <Filter>Header Files\util\tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\src\evaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\random_streams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\simple_tui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\coord.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\dirichlet.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\exec_tracker.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\floor.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\gamma.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\logging.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\random.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\seeds.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\util.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\ippc\client.cpp">
+      <Filter>Source Files\ippc</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\belief.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\globals.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\lower_bound.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\mdp.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\node.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\policy.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\pomdp.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\solver.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\core\upper_bound.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\tinyxml\tinystr.cpp">
+      <Filter>Source Files\util\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\tinyxml\tinyxml.cpp">
+      <Filter>Source Files\util\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\util\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\util\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\util\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\solver\aems.cpp">
+      <Filter>Source Files\solver</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\solver\despot.cpp">
+      <Filter>Source Files\solver</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\solver\pomcp.cpp">
+      <Filter>Source Files\solver</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\pomdpx\pomdpx.cpp">
+      <Filter>Source Files\pomdpx</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\pomdpx\parser\function.cpp">
+      <Filter>Source Files\pomdpx\parser</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\pomdpx\parser\parser.cpp">
+      <Filter>Source Files\pomdpx\parser</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\pomdpx\parser\variable.cpp">
+      <Filter>Source Files\pomdpx\parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

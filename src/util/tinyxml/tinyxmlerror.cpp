@@ -22,7 +22,7 @@
  distribution.
  */
 
-#include <despot/util/tinyxml/tinyxml.h>
+#include "../../../include/despot/util/tinyxml/tinyxml.h"
 
 namespace despot {
 namespace util {

@@ -1,7 +1,7 @@
 #ifndef FLOOR_H
 #define FLOOR_H
 
-#include <despot/util/coord.h>
+#include "../util/coord.h"
 #include <vector>
 
 namespace despot {

@@ -1,4 +1,4 @@
-#include <despot/core/globals.h>
+#include "../../include/despot/core/globals.h"
 
 using namespace std;
 

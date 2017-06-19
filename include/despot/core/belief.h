@@ -3,9 +3,10 @@
 
 #include <vector>
 
-#include <despot/util/random.h>
-#include <despot/util/logging.h>
-#include <despot/core/history.h>
+#include "../core/belief.h"
+#include "../util/random.h"
+#include "../util/logging.h"
+#include "../core/history.h"
 
 namespace despot {
 

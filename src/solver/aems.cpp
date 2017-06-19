@@ -1,4 +1,6 @@
-#include <despot/solver/aems.h>
+
+#include "../../include/despot/solver/aems.h"
+#include "../../include/despot/core/pomdp.h"
 
 using namespace std;
 

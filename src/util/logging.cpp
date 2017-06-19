@@ -1,4 +1,4 @@
-#include <despot/util/logging.h>
+#include "../../include/despot/util/logging.h"
 // #include <thread>
 
 using namespace std;

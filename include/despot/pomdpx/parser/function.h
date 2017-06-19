@@ -7,9 +7,9 @@
 #include <map>
 #include <cassert>
 #include <cmath>
-#include <despot/core/globals.h>
-#include <despot/pomdpx/parser/variable.h>
-#include <despot/util/util.h>
+#include "../../core/globals.h"
+#include "variable.h"
+#include "../../util/util.h"
 
 namespace despot {
 

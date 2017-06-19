@@ -1,4 +1,4 @@
-#include <despot/util/gamma.h>
+#include "../../include/despot/util/gamma.h"
 
 namespace despot {
 

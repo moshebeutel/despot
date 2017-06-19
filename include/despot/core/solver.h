@@ -1,8 +1,8 @@
 #ifndef SOLVER_H
 #define SOLVER_H
 
-#include <despot/core/globals.h>
-#include <despot/core/history.h>
+#include "../core/globals.h"
+#include "../core/history.h"
 
 namespace despot {
 

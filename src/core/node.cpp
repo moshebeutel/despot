@@ -1,5 +1,5 @@
-#include <despot/core/node.h>
-#include <despot/solver/despot.h>
+#include "../../include/despot/core/node.h"
+#include "../../include/despot/solver/despot.h"
 
 using namespace std;
 

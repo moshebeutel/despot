@@ -1,4 +1,4 @@
-#include <despot/util/seeds.h>
+#include "../../include/despot/util/seeds.h"
 
 using namespace std;
 

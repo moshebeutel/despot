@@ -1,7 +1,7 @@
-#include <despot/pomdpx/parser/variable.h>
+#include "../../../include/despot/pomdpx/parser/variable.h"
 #include <iostream>
 #include <string>
-#include <despot/util/util.h>
+#include "../../../include/despot/util/util.h"
 
 using namespace std;
 

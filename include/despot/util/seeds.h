@@ -2,7 +2,7 @@
 #define SEEDS_H
 
 #include <vector>
-#include <despot/util/random.h>
+#include "../util/random.h"
 
 namespace despot {
 

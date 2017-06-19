@@ -1,6 +1,6 @@
-#include <despot/core/upper_bound.h>
-#include <despot/core/pomdp.h>
-#include <despot/core/mdp.h>
+#include "../../include/despot/core/upper_bound.h"
+#include "../../include/despot/core/pomdp.h"
+#include "../../include/despot/core/mdp.h"
 
 using namespace std;
 

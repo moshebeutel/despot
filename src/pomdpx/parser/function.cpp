@@ -1,4 +1,4 @@
-#include <despot/pomdpx/parser/function.h>
+#include "../../../include/despot/pomdpx/parser/function.h"
 #include <stdexcept>
 
 using namespace std;

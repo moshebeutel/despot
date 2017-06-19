@@ -1,5 +1,5 @@
-#include <despot/ippc/client.h>
-#include <despot/util/tinyxml/tinyxml.h>
+#include "../../include/despot/ippc/client.h"
+#include "../../include/despot/util/tinyxml/tinyxml.h"
 #include <iostream>
 //#include <winsock2.h>
 #include <WS2tcpip.h>

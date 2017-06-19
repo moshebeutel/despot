@@ -19,10 +19,10 @@
 #include <sstream>
 #include <map>
 #include <inttypes.h>
-#include <despot/config.h>
+#include "../config.h"
 
-#include <despot/util/exec_tracker.h>
-#include <despot/util/logging.h>
+#include "../util/exec_tracker.h"
+#include "../util/logging.h"
 
 namespace despot {
 

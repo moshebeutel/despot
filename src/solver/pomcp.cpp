@@ -1,5 +1,6 @@
-#include <despot/solver/pomcp.h>
-#include <despot/util/logging.h>
+#include "../../include/despot/solver/pomcp.h"
+#include "../../include/despot/util/logging.h"
+#include "../../include/despot/core/pomdp.h"
 
 using namespace std;
 

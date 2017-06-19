@@ -1,4 +1,4 @@
-#include <despot/evaluator.h>
+#include "../include/despot/evaluator.h"
 
 using namespace std;
 

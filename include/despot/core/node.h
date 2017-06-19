@@ -1,10 +1,10 @@
 #ifndef NODE_H
 #define NODE_H
 
-#include <despot/core/pomdp.h>
-#include <despot/util/util.h>
-#include <despot/random_streams.h>
-#include <despot/util/logging.h>
+#include "../core/pomdp.h"
+#include "../util/util.h"
+#include "../random_streams.h"
+#include "../util/logging.h"
 
 namespace despot {
 

@@ -1,10 +1,10 @@
 #ifndef PARSER_H
 #define PARSER_H
 
-#include <despot/util/util.h>
-#include <despot/core/globals.h>
-#include <despot/pomdpx/parser/variable.h>
-#include <despot/pomdpx/parser/function.h>
+#include "../../util/util.h"
+#include "../../core/globals.h"
+#include "../../pomdpx/parser/variable.h"
+#include "../../pomdpx/parser/function.h"
 
 namespace despot {
 

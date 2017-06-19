@@ -1,4 +1,4 @@
-#include <despot/core/mdp.h>
+#include "../../include/despot/core/mdp.h"
 
 using namespace std;
 

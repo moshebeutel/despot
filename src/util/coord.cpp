@@ -1,4 +1,4 @@
-#include <despot/util/coord.h>
+#include "../../include/despot/util/coord.h"
 #include <cstdlib>
 #include <cmath>
 #include <cassert>

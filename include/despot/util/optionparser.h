@@ -113,7 +113,7 @@
  * (Note: @c option::* identifiers are links that take you to their documentation.)
  * @code
  * #include <iostream>
- * #include <despot/optionparser.h>
+ * #include "../../include/despot/optionparser.h>
  *
  * enum  optionIndex { UNKNOWN, HELP, PLUS };
  * const option::Descriptor usage[] =

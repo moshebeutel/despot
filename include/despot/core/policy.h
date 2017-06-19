@@ -3,17 +3,17 @@
 
 #include <vector>
 
-#include <despot/random_streams.h>
-#include <despot/core/lower_bound.h>
-#include <despot/util/random.h>
-#include <despot/core/history.h>
+#include "../random_streams.h"
+#include "../core/lower_bound.h"
+#include "../util/random.h"
+#include "../core/history.h"
 
 #include <string.h>
 #include <queue>
 #include <vector>
 #include <stdlib.h>
-#include <despot/core/globals.h>
-#include <despot/core/pomdp.h>
+#include "../core/globals.h"
+#include "../core/pomdp.h"
 
 namespace despot {
 

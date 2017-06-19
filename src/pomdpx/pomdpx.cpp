@@ -1,5 +1,5 @@
-#include <despot/pomdpx/pomdpx.h>
-#include <despot/solver/pomcp.h>
+#include "../../include/despot/pomdpx/pomdpx.h"
+#include "../../include/despot/solver/pomcp.h"
 
 using namespace std;
 

@@ -1,11 +1,11 @@
 #ifndef SIMULATOR_H
 #define SIMULATOR_H
 
-#include <despot/core/globals.h>
-#include <despot/core/pomdp.h>
-#include <despot/pomdpx/pomdpx.h>
-#include <despot/ippc/client.h>
-#include <despot/util/util.h>
+#include "./core/globals.h"
+#include "./core/pomdp.h"
+#include "./pomdpx/pomdpx.h"
+#include "./ippc/client.h"
+#include "./util/util.h"
 
 namespace despot {
 

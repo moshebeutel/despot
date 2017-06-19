@@ -2,7 +2,7 @@
 #define DIRICHLET_H
 
 #include <vector>
-#include <despot/util/gamma.h>
+#include "../util/gamma.h"
 
 namespace despot {
 

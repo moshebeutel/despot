@@ -1,7 +1,7 @@
 #ifndef GRID_H
 #define GRID_H
 
-#include <despot/util/coord.h>
+#include "../util/coord.h>
 
 namespace despot {
 

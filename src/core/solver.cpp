@@ -1,7 +1,7 @@
-#include <despot/core/solver.h>
-#include <despot/util/logging.h>
-#include <despot/core/pomdp.h>
-#include <despot/core/belief.h>
+#include "../../include/despot/core/solver.h"
+#include "../../include/despot/util/logging.h"
+#include "../../include/despot/core/pomdp.h"
+#include "../../include/despot/core/belief.h"
 
 using namespace std;
 

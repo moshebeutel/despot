@@ -1,16 +1,16 @@
 #ifndef POMDP_H
 #define POMDP_H
 
-#include <despot/core/globals.h>
-#include <despot/core/belief.h>
-#include <despot/random_streams.h>
-#include <despot/core/history.h>
-#include <despot/core/lower_bound.h>
-#include <despot/core/policy.h>
-#include <despot/core/upper_bound.h>
-#include <despot/util/memorypool.h>
-#include <despot/util/seeds.h>
-#include <despot/util/util.h>
+#include "../core/globals.h"
+#include "../core/belief.h"
+#include "../random_streams.h"
+#include "../core/history.h"
+#include "../core/lower_bound.h"
+#include "../core/policy.h"
+#include "../core/upper_bound.h"
+#include "../util/memorypool.h"
+#include "../util/seeds.h"
+#include "../util/util.h"
 
 namespace despot {
 

@@ -1,7 +1,7 @@
-#include <despot/core/lower_bound.h>
-#include <despot/core/pomdp.h>
-#include <despot/core/node.h>
-#include <despot/solver/pomcp.h>
+#include "../../include/despot/core/lower_bound.h"
+#include "../../include/despot/core/pomdp.h"
+#include "../../include/despot/core/node.h"
+#include "../../include/despot/solver/pomcp.h"
 
 using namespace std;
 

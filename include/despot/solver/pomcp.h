@@ -1,9 +1,9 @@
 #ifndef POMCP_H
 #define POMCP_H
 
-#include <despot/core/pomdp.h>
-#include <despot/core/node.h>
-#include <despot/core/globals.h>
+#include "../core/pomdp.h"
+#include "../core/node.h"
+#include "../core/globals.h"
 
 namespace despot {
 

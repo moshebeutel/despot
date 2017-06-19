@@ -4,8 +4,8 @@
 #include <vector>
 #include <cassert>
 
-#include <despot/random_streams.h>
-#include <despot/core/history.h>
+#include "../random_streams.h"
+#include "../core/history.h"
 
 namespace despot {
 

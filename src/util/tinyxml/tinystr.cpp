@@ -28,7 +28,7 @@
 
 #ifndef TIXML_USE_STL
 
-#include <despot/util/tinyxml/tinystr.h>
+#include "../../../include/despot/util/tinyxml/tinystr.h"
 
 namespace despot {
 namespace util {

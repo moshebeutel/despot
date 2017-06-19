@@ -1,13 +1,13 @@
 #ifndef DESPOT_H
 #define DESPOT_H
 
-#include <despot/core/solver.h>
-#include <despot/core/pomdp.h>
-#include <despot/core/belief.h>
-#include <despot/core/node.h>
-#include <despot/core/globals.h>
-#include <despot/core/history.h>
-#include <despot/random_streams.h>
+#include "../core/solver.h"
+#include "../core/pomdp.h"
+#include "../core/belief.h"
+#include "../core/node.h"
+#include "../core/globals.h"
+#include "../core/history.h"
+#include "../random_streams.h"
 
 namespace despot {
 

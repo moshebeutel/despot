@@ -1,4 +1,4 @@
-#include <despot/util/dirichlet.h>
+#include "../../include/despot/util/dirichlet.h"
 
 using namespace std;
 

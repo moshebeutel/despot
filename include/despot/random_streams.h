@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <stdlib.h>
-#include <despot/util/random.h>
+#include "./util/random.h"
 
 namespace despot {
 

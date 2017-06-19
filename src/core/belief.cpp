@@ -1,5 +1,6 @@
-#include <despot/core/belief.h>
-#include <despot/core/pomdp.h>
+
+#include "../../include/despot/core/pomdp.h"
+#include "../../include/despot/core/belief.h"
 
 using namespace std;
 

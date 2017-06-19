@@ -1,4 +1,4 @@
-#include <despot/util/random.h>
+#include "../../include/despot/util/random.h"
 #include <stdlib.h>
 #include <iostream>
 #include <math.h>

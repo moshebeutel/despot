@@ -3,7 +3,7 @@
 
 #include <cmath>
 #include <cstdlib>
-#include <despot/util/random.h>
+#include "../util/random.h"
 
 namespace despot {
 

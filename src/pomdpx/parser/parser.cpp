@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <cstdlib>
-#include <despot/util/random.h>
-#include <despot/util/tinyxml/tinyxml.h>
-#include <despot/pomdpx/parser/parser.h>
-#include <despot/core/pomdp.h>
+#include "../../../include/despot/util/random.h"
+#include "../../../include/despot/util/tinyxml/tinyxml.h"
+#include "../../../include/despot/pomdpx/parser/parser.h"
+#include "../../../include/despot/core/pomdp.h"
 
 using namespace std;
 using namespace despot::util::tinyxml;
