@@ -1,7 +1,8 @@
 #include <despot/ippc/client.h>
 #include <despot/util/tinyxml/tinyxml.h>
 #include <iostream>
-
+//#include <winsock2.h>
+#include <WS2tcpip.h>
 using namespace std;
 using namespace despot::util::tinyxml;
 
@@ -68,7 +69,8 @@ void Client::connectToServer() {
 
 void Client::closeConnection() {
 	freeaddrinfo(host_info_list);
-	close(socketfd);
+//###	close(socketfd);
+	closesocket(socketfd);
 }
 void Client::sendMessage(string sendbuf) {
 	cout << "message: " << sendbuf << endl;
@@ -90,7 +92,7 @@ string Client::recvMessage() {
 	//int n;
 	string s;
 	bool end = false;
-	ssize_t bytes_received;
+	size_t bytes_received;
 	//int k = 0;
 	do {
 		char recvbuf[1024];

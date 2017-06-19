@@ -1560,7 +1560,7 @@ inline bool Parser::workhorse(bool gnu, const Descriptor usage[], int numargs,
 		{
 			int idx;
 
-			const char* optarg;
+			const char* optarg = nullptr;  //###
 
 			/******************** long option **********************/
 			if (handle_short_options == false || try_single_minus_longopt) {
@@ -1633,6 +1633,8 @@ inline bool Parser::workhorse(bool gnu, const Descriptor usage[], int numargs,
 					++idx;
 				descriptor = (usage[idx].shortopt == 0 ? 0 : &usage[idx]);
 			}
+
+			assert(optarg != nullptr); //###
 
 			if (descriptor != 0) {
 				Option option(descriptor, param, optarg);

@@ -7,9 +7,9 @@
 #include <map>
 #include <algorithm>
 #include <math.h>
-// #include <chrono>
+#include <chrono>//###
 #include <locale>
-#include <sys/time.h>
+//#include <time.h>   #include <sys/time.h>
 
 namespace despot {
 
@@ -96,23 +96,23 @@ std::vector<std::pair<K, V> > SortByKey(std::map<K, V> m) {
 	return v;
 }
 
-inline double get_time_second() {
-	struct timeval tv;
+//###
+//inline double get_time_second() {
+//	struct timeval tv;
+//
+//	gettimeofday(&tv, NULL);
+//
+//	return tv.tv_sec + tv.tv_usec / 1000000.0;
+//}
 
-	gettimeofday(&tv, NULL);
-
-	return tv.tv_sec + tv.tv_usec / 1000000.0;
-}
-
-/*
+//###
 // NOTE: disabled C++11 feature
 inline double get_time_second() {
-	system_clock::time_point tp = system_clock::now();
-	system_clock::duration dtn = tp.time_since_epoch();
-	return ((double) dtn.count()) * system_clock::period::num
-		/ system_clock::period::den;
+	std::chrono::system_clock::time_point tp = std::chrono::system_clock::now();
+	std::chrono::system_clock::duration dtn = tp.time_since_epoch();
+	return ((double) dtn.count()) * std::chrono::system_clock::period::num
+		/ std::chrono::system_clock::period::den;
 }
-*/
 
 inline std::string lower(std::string str) {
   std::locale loc;

@@ -2,10 +2,12 @@
 #define CLIENT_H_
 
 #include <cstring>      // Needed for memset
-#include <unistd.h>
-#include <sys/socket.h> // Needed for the socket functions
+//####include <unistd.h>
+//###include <sys/socket.h> // Needed for the socket functions
+#include <winsock2.h>
+#include <WS2tcpip.h>
 #include <sys/types.h>
-#include <netdb.h>      // Needed for the socket functions
+//####include <netdb.h>      // Needed for the socket functions
 #include <vector>
 #include <string>
 #include <map>

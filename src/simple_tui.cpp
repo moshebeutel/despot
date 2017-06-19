@@ -5,12 +5,13 @@ using namespace std;
 namespace despot {
 
 void disableBufferedIO(void) {
-  setbuf(stdout, NULL);
-  setbuf(stdin, NULL);
-  setbuf(stderr, NULL);
-  setvbuf(stdout, NULL, _IONBF, 0);
-  setvbuf(stdin, NULL, _IONBF, 0);
-  setvbuf(stderr, NULL, _IONBF, 0);
+	
+ //### setbuf(stdout, NULL);
+ //### setbuf(stdin, NULL);
+ //### setbuf(stderr, NULL);
+  setvbuf(stdout, nullptr, _IONBF, 0);
+  setvbuf(stdin, nullptr, _IONBF, 0);
+  setvbuf(stderr, nullptr, _IONBF, 0);
 }
 
 SimpleTUI::SimpleTUI() {}

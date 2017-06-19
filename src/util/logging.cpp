@@ -7,12 +7,12 @@ namespace despot {
 
 const string logging::markers_[] = { "NONE", "ERROR", "WARN", "INFO", "DEBUG",
 	"VERBOSE" };
-const int logging::NONE = 0;
-const int logging::ERROR = 1;
-const int logging::WARN = 2;
-const int logging::INFO = 3;
-const int logging::DEBUG = 4;
-const int logging::VERBOSE = 5;
+const int logging::NONE_ = 0;
+const int logging::ERROR_ = 1;
+const int logging::WARN_ = 2;
+const int logging::INFO_ = 3;
+const int logging::DEBUG_ = 4;
+const int logging::VERBOSE_ = 5;
 
 log_ostream::log_ostream(ostream& out, string marker) :
 	ostream(&buffer_),
@@ -40,7 +40,7 @@ int log_ostream::log_buf::sync() {
 	return !out_;
 }
 
-int logging::verbosity_ = ERROR;
+int logging::verbosity_ = ERROR_;
 
 void logging::level(int verbosity) {
 	verbosity_ = verbosity;
@@ -55,7 +55,7 @@ log_ostream& logging::stream(int level) {
 }
 
 void logging::stream(int level, ostream& out) {
-	if (level >= ERROR && level <= VERBOSE) {
+	if (level >= ERROR_ && level <= VERBOSE_) {
 		streams_[level] = new log_ostream(out, markers_[level]);
 	}
 }
@@ -63,12 +63,12 @@ void logging::stream(int level, ostream& out) {
 vector<log_ostream*> logging::InitializeLogStreams() {
 	vector<log_ostream*> streams(6);
 
-	streams[NONE] = NULL;
-	streams[ERROR] = new log_ostream(cerr, markers_[ERROR]);
-	streams[WARN] = new log_ostream(cerr, markers_[WARN]);
-	streams[INFO] = new log_ostream(cerr, markers_[INFO]);
-	streams[DEBUG] = new log_ostream(cerr, markers_[DEBUG]);
-	streams[VERBOSE] = new log_ostream(cerr, markers_[VERBOSE]);
+	streams[NONE_] = NULL;
+	streams[ERROR_] = new log_ostream(cerr, markers_[ERROR_]);
+	streams[WARN_] = new log_ostream(cerr, markers_[WARN_]);
+	streams[INFO_] = new log_ostream(cerr, markers_[INFO_]);
+	streams[DEBUG_] = new log_ostream(cerr, markers_[DEBUG_]);
+	streams[VERBOSE_] = new log_ostream(cerr, markers_[VERBOSE_]);
 
 	return streams;
 }
